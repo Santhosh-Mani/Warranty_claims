@@ -1,0 +1,19 @@
+{
+  "id": "invalid_missing_002",
+  "type": "invalid_missing_info",
+  "expected_classification": "claim",
+  "expected_recommendation": "NEED_INFO",
+  "ground_truth": {
+    "missing_fields": [
+      "purchase_date",
+      "proof_of_purchase"
+    ],
+    "product": "HD-002",
+    "action": "request_more_info"
+  },
+  "email": {
+    "from": "no.date@email.com",
+    "subject": "AirFlow Pro warranty",
+    "body": "Hi,\n\nI have an AirFlow Pro hair dryer (serial HD-002-938475) that stopped working.\nThe motor is dead.\n\nI don't remember exactly when I bought it or where. I might have thrown away\nthe receipt. Can you still help?\n\nThanks"
+  }
+}

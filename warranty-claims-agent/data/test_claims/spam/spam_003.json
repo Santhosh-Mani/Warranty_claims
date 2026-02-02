@@ -1,0 +1,10 @@
+{
+  "id": "spam_003",
+  "type": "spam",
+  "expected_classification": "spam",
+  "email": {
+    "from": "recruiter@staffing.com",
+    "subject": "Exciting Career Opportunity - Customer Service Manager",
+    "body": "Hello,\n\nWe came across your profile and think you'd be a great fit for our Customer Service\nManager position. The salary is $75,000-$95,000 with full benefits.\n\nPlease reply with your resume if interested.\n\nBest regards,\nHR Team"
+  }
+}

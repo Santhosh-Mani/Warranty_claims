@@ -1,0 +1,20 @@
+{
+  "id": "invalid_repair_001",
+  "type": "invalid_exclusion",
+  "expected_classification": "claim",
+  "expected_recommendation": "REJECT",
+  "ground_truth": {
+    "product": "HD-002",
+    "purchase_date": "2025-12-13",
+    "days_since_purchase": 50,
+    "issue": "motor_failure",
+    "within_warranty": true,
+    "exclusion_triggered": "unauthorized_repair",
+    "rejection_reason": "tampered_with"
+  },
+  "email": {
+    "from": "diy.fixer@gmail.com",
+    "subject": "AirFlow Pro still not working",
+    "body": "Hi,\n\nMy AirFlow Pro had a minor issue so I opened it up to try to fix it myself.\nI watched some YouTube videos and tried to repair the motor. Unfortunately,\nI made it worse and now it doesn't work at all.\n\nSerial: HD-002-584930\nBought: 12/13/2025\n\nCan I get a replacement?"
+  }
+}

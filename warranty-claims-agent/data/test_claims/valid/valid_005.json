@@ -1,0 +1,19 @@
+{
+  "id": "valid_005",
+  "type": "valid_claim",
+  "expected_classification": "claim",
+  "expected_recommendation": "APPROVE",
+  "ground_truth": {
+    "product": "HD-010",
+    "purchase_date": "2026-01-17",
+    "days_since_purchase": 15,
+    "issue": "wont_turn_on",
+    "within_warranty": true,
+    "exclusion_triggered": null
+  },
+  "email": {
+    "from": "david.lee@email.com",
+    "subject": "Brand new ProStyle Ionic won't turn on",
+    "body": "Hi,\n\nI just bought a ProStyle Ionic hair dryer 2 weeks ago and it already won't turn on!\nI've tried different outlets and nothing works. This is very frustrating for a\n$80 product.\n\nSerial: HD-010-394857\nPurchased: 01/17/2026 from Best Buy\nI have the receipt.\n\nPlease replace this defective unit ASAP.\n\nDavid Lee\n222 Elm Street\nSeattle, WA 98101"
+  }
+}

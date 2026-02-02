@@ -1,0 +1,19 @@
+{
+  "id": "invalid_expired_005",
+  "type": "invalid_expired",
+  "expected_classification": "claim",
+  "expected_recommendation": "REJECT",
+  "ground_truth": {
+    "product": "HD-005",
+    "purchase_date": "2025-07-16",
+    "days_since_purchase": 200,
+    "issue": "motor_failure",
+    "within_warranty": false,
+    "rejection_reason": "warranty_expired"
+  },
+  "email": {
+    "from": "salon.owner@beauty.com",
+    "subject": "SalonMaster 3000 claim",
+    "body": "Our SalonMaster 3000 (HD-005-473829) has motor issues.\nPurchased 07/16/2025.\n\nPlease replace under warranty.\n\nSalon Owner"
+  }
+}

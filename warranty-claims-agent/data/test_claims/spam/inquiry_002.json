@@ -1,0 +1,10 @@
+{
+  "id": "inquiry_002",
+  "type": "inquiry",
+  "expected_classification": "inquiry",
+  "email": {
+    "from": "bob.smith@yahoo.com",
+    "subject": "Where can I buy replacement parts?",
+    "body": "Hello,\n\nI've had my QuietBlow Deluxe for about 2 years now and I love it! The concentrator\nnozzle broke recently (my fault, I dropped it). Where can I purchase a replacement\nnozzle? I don't need a warranty claim, just want to buy the part.\n\nThanks,\nBob"
+  }
+}

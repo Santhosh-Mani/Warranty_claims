@@ -1,0 +1,19 @@
+{
+  "id": "valid_003",
+  "type": "valid_claim",
+  "expected_classification": "claim",
+  "expected_recommendation": "APPROVE",
+  "ground_truth": {
+    "product": "HD-001",
+    "purchase_date": "2025-12-03",
+    "days_since_purchase": 60,
+    "issue": "switch_defect",
+    "within_warranty": true,
+    "exclusion_triggered": null
+  },
+  "email": {
+    "from": "maria.garcia@yahoo.com",
+    "subject": "AirFlow Basic power button problem",
+    "body": "Hi there,\n\nThe power button on my AirFlow Basic is defective. It gets stuck in the ON position\nand I have to unplug it to turn it off. This started happening last week.\n\nI bought this on December 03 from Walmart.\nSerial number is HD-001-847293.\n\nThis seems like a manufacturing defect. I have the receipt.\n\nMaria Garcia\n789 Pine Road\nMiami, FL 33101\n305-555-1234"
+  }
+}

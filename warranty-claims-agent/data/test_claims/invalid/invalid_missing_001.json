@@ -1,0 +1,19 @@
+{
+  "id": "invalid_missing_001",
+  "type": "invalid_missing_info",
+  "expected_classification": "claim",
+  "expected_recommendation": "NEED_INFO",
+  "ground_truth": {
+    "missing_fields": [
+      "product_name",
+      "purchase_date",
+      "serial_number"
+    ],
+    "action": "request_more_info"
+  },
+  "email": {
+    "from": "vague.customer@email.com",
+    "subject": "Hair dryer broken",
+    "body": "My hair dryer is broken. It just stopped working. Please send a new one.\n\nThanks"
+  }
+}

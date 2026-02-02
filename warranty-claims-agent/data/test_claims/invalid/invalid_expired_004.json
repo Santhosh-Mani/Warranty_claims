@@ -1,0 +1,19 @@
+{
+  "id": "invalid_expired_004",
+  "type": "invalid_expired",
+  "expected_classification": "claim",
+  "expected_recommendation": "REJECT",
+  "ground_truth": {
+    "product": "HD-007",
+    "purchase_date": "2025-08-05",
+    "days_since_purchase": 180,
+    "issue": "heating_element",
+    "within_warranty": false,
+    "rejection_reason": "warranty_expired"
+  },
+  "email": {
+    "from": "kate.miller@gmail.com",
+    "subject": "QuietBlow Compact not heating",
+    "body": "Hi there,\n\nMy QuietBlow Compact (serial HD-007-584930) stopped producing heat.\nI purchased it approximately 6 months ago (August 2025).\n\nIs this covered under warranty?\n\nKate Miller"
+  }
+}

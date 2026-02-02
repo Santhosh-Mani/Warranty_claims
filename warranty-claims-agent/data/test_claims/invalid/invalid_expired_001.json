@@ -1,0 +1,19 @@
+{
+  "id": "invalid_expired_001",
+  "type": "invalid_expired",
+  "expected_classification": "claim",
+  "expected_recommendation": "REJECT",
+  "ground_truth": {
+    "product": "HD-001",
+    "purchase_date": "2025-07-16",
+    "days_since_purchase": 200,
+    "issue": "motor_failure",
+    "within_warranty": false,
+    "rejection_reason": "warranty_expired"
+  },
+  "email": {
+    "from": "sarah.jones@yahoo.com",
+    "subject": "Warranty claim for AirFlow Basic",
+    "body": "Hi,\n\nMy AirFlow Basic hair dryer stopped heating. I bought it back in July 2025.\nSerial number is HD-001-129384.\n\nCan I get a replacement under warranty?\n\nSarah Jones\nsarah.jones@yahoo.com"
+  }
+}

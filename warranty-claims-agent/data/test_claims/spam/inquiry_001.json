@@ -1,0 +1,10 @@
+{
+  "id": "inquiry_001",
+  "type": "inquiry",
+  "expected_classification": "inquiry",
+  "email": {
+    "from": "jane.doe@gmail.com",
+    "subject": "Question about AirFlow Pro features",
+    "body": "Hi there,\n\nI'm considering buying the AirFlow Pro hair dryer and had a few questions:\n\n1. Does it have a cool shot button?\n2. What attachments are included?\n3. Is it dual voltage for travel?\n\nI haven't purchased yet but want to make sure it's right for me.\n\nThanks!\nJane"
+  }
+}

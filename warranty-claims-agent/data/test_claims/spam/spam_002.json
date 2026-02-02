@@ -1,0 +1,10 @@
+{
+  "id": "spam_002",
+  "type": "spam",
+  "expected_classification": "spam",
+  "email": {
+    "from": "prince.nigeria@email.ng",
+    "subject": "URGENT: Business Proposal - $5,000,000 Transfer",
+    "body": "Dear Friend,\n\nI am Prince Adebayo from Nigeria. I have $5,000,000 USD to transfer to your account.\nPlease send your bank details for this legitimate business opportunity.\n\nGod Bless,\nPrince Adebayo"
+  }
+}

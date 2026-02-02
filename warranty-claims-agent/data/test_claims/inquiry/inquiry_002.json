@@ -1,0 +1,10 @@
+{
+  "id": "inquiry_002",
+  "type": "inquiry",
+  "expected_classification": "inquiry",
+  "email": {
+    "from": "mike.brown@outlook.com",
+    "subject": "Warranty coverage question",
+    "body": "Hello,\n\nI'm considering purchasing the TravelDry Mini for my upcoming trip. Before I buy, I wanted to understand:\n\n- How long is the warranty period?\n- What does the warranty cover?\n- Do I need to keep my receipt?\n- Is there a difference between commercial and personal use coverage?\n\nAppreciate your help!\nMike"
+  }
+}

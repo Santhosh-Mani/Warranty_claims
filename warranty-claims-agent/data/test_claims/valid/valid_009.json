@@ -1,0 +1,19 @@
+{
+  "id": "valid_009",
+  "type": "valid_claim",
+  "expected_classification": "claim",
+  "expected_recommendation": "APPROVE",
+  "ground_truth": {
+    "product": "HD-006",
+    "purchase_date": "2025-09-04",
+    "days_since_purchase": 150,
+    "issue": "digital_control_failure",
+    "within_warranty": true,
+    "exclusion_triggered": null
+  },
+  "email": {
+    "from": "mark.salon@hairpro.com",
+    "subject": "SalonMaster Elite - Digital Display Not Working",
+    "body": "Hi,\n\nThe digital temperature display on my SalonMaster Elite has stopped working.\nThe dryer still functions but I can't see or adjust the temperature settings.\n\nProduct: SalonMaster Elite\nSerial: HD-006-847362\nPurchase Date: 2025-09-04\nProof: Invoice attached\n\nThis is a professional unit used in my salon (which I know is allowed).\nShould be within the 180-day warranty period.\n\nMark Johnson\nPro Hair Studio\n444 Salon Row\nLos Angeles, CA 90001"
+  }
+}

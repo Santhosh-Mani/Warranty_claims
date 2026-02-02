@@ -1,0 +1,19 @@
+{
+  "id": "valid_006",
+  "type": "valid_claim",
+  "expected_classification": "claim",
+  "expected_recommendation": "APPROVE",
+  "ground_truth": {
+    "product": "HD-008",
+    "purchase_date": "2025-11-18",
+    "days_since_purchase": 75,
+    "issue": "cord_defect",
+    "within_warranty": true,
+    "exclusion_triggered": null
+  },
+  "email": {
+    "from": "susan.taylor@icloud.com",
+    "subject": "QuietBlow Deluxe - Cord Issue",
+    "body": "Hello,\n\nThe power cord on my QuietBlow Deluxe has started fraying at the base where it\nconnects to the dryer. I haven't done anything to damage it - it just started\nhappening. I'm worried it might be a fire hazard.\n\nModel: QuietBlow Deluxe\nSerial Number: HD-008-573920\nPurchase Date: Around November 2025\nI bought it at Bed Bath & Beyond and have my credit card statement as proof.\n\nPlease help!\n\nSusan Taylor\n888 Maple Lane\nDenver, CO 80201"
+  }
+}

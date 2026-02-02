@@ -1,0 +1,19 @@
+{
+  "id": "valid_008",
+  "type": "valid_claim",
+  "expected_classification": "claim",
+  "expected_recommendation": "APPROVE",
+  "ground_truth": {
+    "product": "HD-009",
+    "purchase_date": "2026-01-12",
+    "days_since_purchase": 20,
+    "issue": "auto_shutoff_malfunction",
+    "within_warranty": true,
+    "exclusion_triggered": null
+  },
+  "email": {
+    "from": "mom.jennifer@family.com",
+    "subject": "KidSafe Dryer Warranty Issue",
+    "body": "Hello,\n\nWe bought the KidSafe Dryer for our daughter about 3 weeks ago. The auto shut-off\nfeature isn't working - it just keeps running without stopping. This defeats the\nwhole safety purpose of the product.\n\nDetails:\n- KidSafe Dryer, model HD-009\n- Serial: HD-009-102938\n- Bought 01/12/26 from Target\n- Have receipt\n\nPlease replace this as it's a safety concern.\n\nJennifer Adams\n333 Family Drive\nAustin, TX 78701"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "invalid_water_002",
+  "type": "invalid_exclusion",
+  "expected_classification": "claim",
+  "expected_recommendation": "REJECT",
+  "ground_truth": {
+    "product": "HD-010",
+    "purchase_date": "2026-01-07",
+    "days_since_purchase": 25,
+    "issue": "water_damage",
+    "within_warranty": true,
+    "exclusion_triggered": "water_damage",
+    "rejection_reason": "exclusion_water_damage"
+  },
+  "email": {
+    "from": "wet.bathroom@email.com",
+    "subject": "ProStyle Ionic stopped working after getting wet",
+    "body": "My ProStyle Ionic got splashed with water while I was using it near the shower.\nThe bathroom was really steamy and some water dripped on it. Now it sparks\nwhen I try to turn it on.\n\nHD-010-394857\nBought January 07\n\nIs this covered?"
+  }
+}

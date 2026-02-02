@@ -1,0 +1,20 @@
+{
+  "id": "invalid_commercial_001",
+  "type": "invalid_exclusion",
+  "expected_classification": "claim",
+  "expected_recommendation": "REJECT",
+  "ground_truth": {
+    "product": "HD-001",
+    "purchase_date": "2025-12-18",
+    "days_since_purchase": 45,
+    "issue": "motor_failure",
+    "within_warranty": true,
+    "exclusion_triggered": "commercial_use",
+    "rejection_reason": "commercial_use_not_covered"
+  },
+  "email": {
+    "from": "salon.beauty@business.com",
+    "subject": "Bulk warranty claim - AirFlow Basic units failing",
+    "body": "We purchased 5 AirFlow Basic dryers for our salon on December 18.\nAfter heavy daily use on clients, 3 of them have stopped working.\n\nSerials: HD-001-483921, HD-001-483922, HD-001-483923\n\nWe need replacements ASAP for our business.\n\nBeauty Salon Inc.\n100 Salon Street\nMiami, FL 33101"
+  }
+}

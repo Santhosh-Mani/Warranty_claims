@@ -1,0 +1,10 @@
+{
+  "id": "spam_004",
+  "type": "spam",
+  "expected_classification": "spam",
+  "email": {
+    "from": "newsletter@beautymagazine.com",
+    "subject": "This Week's Top 10 Hair Styling Tips",
+    "body": "BEAUTY WEEKLY NEWSLETTER\n\nThis week's top stories:\n1. 10 Tips for Perfect Blowouts\n2. Celebrity Hair Trends 2026\n3. Best Products for Frizzy Hair\n4. Interview with Top Stylist Maria Chen\n\nRead more at beautymagazine.com\n\nTo unsubscribe, click here."
+  }
+}

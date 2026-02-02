@@ -1,0 +1,19 @@
+{
+  "id": "valid_002",
+  "type": "valid_claim",
+  "expected_classification": "claim",
+  "expected_recommendation": "APPROVE",
+  "ground_truth": {
+    "product": "HD-007",
+    "purchase_date": "2026-01-02",
+    "days_since_purchase": 30,
+    "issue": "heating_element_failure",
+    "within_warranty": true,
+    "exclusion_triggered": null
+  },
+  "email": {
+    "from": "emily.wilson@outlook.com",
+    "subject": "QuietBlow Compact - No Heat",
+    "body": "Hello,\n\nI purchased a QuietBlow Compact hair dryer about a month ago and it has stopped\nproducing heat. The motor runs fine and air comes out, but it's only cold air\nregardless of the heat setting.\n\nDetails:\n- Model: QuietBlow Compact (HD-007)\n- Serial: HD-007-294817\n- Bought on: 01/02/2026\n- Store: Target\n\nI've attached a photo of my receipt. Please advise on the warranty process.\n\nEmily Wilson\n456 Oak Avenue\nChicago, IL 60601\nemily.wilson@outlook.com"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "inquiry_001",
+  "type": "inquiry",
+  "expected_classification": "inquiry",
+  "email": {
+    "from": "sarah.jones@gmail.com",
+    "subject": "Question about AirFlow Pro features",
+    "body": "Hi,\n\nI'm interested in buying the AirFlow Pro hair dryer for my salon. Can you tell me:\n\n1. Does it have a cool shot button?\n2. What's the wattage?\n3. How many heat and speed settings does it have?\n4. Does it come with different nozzle attachments?\n\nThanks!\nSarah"
+  }
+}

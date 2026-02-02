@@ -1,0 +1,18 @@
+{
+  "id": "invalid_missing_003",
+  "type": "invalid_missing_info",
+  "expected_classification": "claim",
+  "expected_recommendation": "NEED_INFO",
+  "ground_truth": {
+    "missing_fields": [
+      "serial_number",
+      "specific_product"
+    ],
+    "action": "request_more_info"
+  },
+  "email": {
+    "from": "partial.info@email.com",
+    "subject": "Warranty for my hair dryer",
+    "body": "Hello,\n\nI bought one of your hair dryers from Amazon about 2 months ago. I think it\nwas the travel one? The small pink one. Anyway, it stopped working.\n\nI have my Amazon order somewhere but I can't find the serial number on the\nproduct - where is it located?\n\nCan you help?\n\nAmy"
+  }
+}

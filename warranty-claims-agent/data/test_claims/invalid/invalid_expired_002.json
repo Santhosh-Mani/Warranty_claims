@@ -1,0 +1,19 @@
+{
+  "id": "invalid_expired_002",
+  "type": "invalid_expired",
+  "expected_classification": "claim",
+  "expected_recommendation": "REJECT",
+  "ground_truth": {
+    "product": "HD-002",
+    "purchase_date": "2025-10-29",
+    "days_since_purchase": 95,
+    "issue": "switch_defect",
+    "within_warranty": false,
+    "rejection_reason": "warranty_expired"
+  },
+  "email": {
+    "from": "tom.baker@email.com",
+    "subject": "AirFlow Pro switch broken",
+    "body": "Hello,\n\nThe heat switch on my AirFlow Pro is broken. I bought it on October 29, 2025.\nSerial: HD-002-293847\n\nPlease process my warranty claim.\n\nTom Baker\n777 Oak Street\nPortland, OR 97201"
+  }
+}

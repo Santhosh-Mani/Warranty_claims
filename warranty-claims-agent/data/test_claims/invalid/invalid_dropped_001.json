@@ -1,0 +1,20 @@
+{
+  "id": "invalid_dropped_001",
+  "type": "invalid_exclusion",
+  "expected_classification": "claim",
+  "expected_recommendation": "REJECT",
+  "ground_truth": {
+    "product": "HD-004",
+    "purchase_date": "2026-01-12",
+    "days_since_purchase": 20,
+    "issue": "physical_damage",
+    "within_warranty": true,
+    "exclusion_triggered": "physical_damage",
+    "rejection_reason": "damage_from_dropping"
+  },
+  "email": {
+    "from": "clumsy.user@gmail.com",
+    "subject": "TravelDry Plus broke after falling",
+    "body": "Hi,\n\nI accidentally dropped my TravelDry Plus from the bathroom counter onto the tile\nfloor. Now it makes a rattling noise and the heat doesn't work right.\n\nSerial: HD-004-293847\nBought: 01/12/2026\n\nCan I get this fixed under warranty?\n\nThanks"
+  }
+}

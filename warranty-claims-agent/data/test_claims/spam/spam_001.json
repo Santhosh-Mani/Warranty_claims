@@ -1,0 +1,10 @@
+{
+  "id": "spam_001",
+  "type": "spam",
+  "expected_classification": "spam",
+  "email": {
+    "from": "marketing@amazingdeals.com",
+    "subject": "AMAZING HAIR CARE DEALS - 70% OFF TODAY ONLY!",
+    "body": "Dear Valued Customer,\n\nDon't miss our INCREDIBLE sale on professional hair care products!\n\n🔥 70% OFF all styling tools\n🔥 FREE shipping on orders over $50\n🔥 Buy 2 Get 1 FREE on all accessories\n\nVisit www.amazingdeals.com/haircare NOW!\n\nThis offer expires at midnight!\n\nUnsubscribe: click here"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "valid_004",
+  "type": "valid_claim",
+  "expected_classification": "claim",
+  "expected_recommendation": "APPROVE",
+  "ground_truth": {
+    "product": "HD-005",
+    "purchase_date": "2025-10-04",
+    "days_since_purchase": 120,
+    "issue": "motor_failure",
+    "within_warranty": true,
+    "exclusion_triggered": null
+  },
+  "email": {
+    "from": "lisa.stylist@salonbeauty.com",
+    "subject": "SalonMaster 3000 Warranty Claim - Motor Issue",
+    "body": "Hello,\n\nI own a small salon and purchased the SalonMaster 3000 for professional use about\n4 months ago. The motor has started making a grinding noise and sometimes cuts out.\n\nI know this is a professional-grade dryer approved for salon use, and I believe\nit should still be under the 180-day warranty.\n\nProduct: SalonMaster 3000\nSerial: HD-005-192847\nPurchase Date: 2025-10-04\nOrder #: AMZ-9876543\n\nPlease process this warranty claim. I rely on this dryer for my business.\n\nLisa Chen\nBeauty First Salon\n100 Commerce St\nSan Francisco, CA 94102\nlisa.stylist@salonbeauty.com"
+  }
+}

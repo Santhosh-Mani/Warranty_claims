@@ -1,0 +1,19 @@
+{
+  "id": "valid_001",
+  "type": "valid_claim",
+  "expected_classification": "claim",
+  "expected_recommendation": "APPROVE",
+  "ground_truth": {
+    "product": "HD-002",
+    "purchase_date": "2025-12-18",
+    "days_since_purchase": 45,
+    "issue": "motor_failure",
+    "within_warranty": true,
+    "exclusion_triggered": null
+  },
+  "email": {
+    "from": "john.smith@gmail.com",
+    "subject": "Warranty Claim - AirFlow Pro stopped working",
+    "body": "Hi,\n\nMy AirFlow Pro hair dryer suddenly stopped working yesterday. The motor makes a\nclicking sound and won't spin at all. I've only had it for about 6 weeks.\n\nProduct: AirFlow Pro\nSerial Number: HD-002-583921\nPurchase Date: December 18, 2025\nPurchased from: Amazon\n\nI have the receipt and can provide it if needed. This is clearly a defect as I've\ntaken good care of it and only use it normally.\n\nMy address for shipping:\nJohn Smith\n123 Main Street\nBoston, MA 02101\n\nPlease let me know how to proceed with the warranty claim.\n\nThank you,\nJohn Smith\njohn.smith@gmail.com"
+  }
+}

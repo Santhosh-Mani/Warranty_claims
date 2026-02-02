@@ -1,0 +1,533 @@
+{
+  "generated_date": "2026-02-01",
+  "total_claims": 30,
+  "distribution": {
+    "spam": 6,
+    "valid": 9,
+    "invalid": 15
+  },
+  "claims": [
+    {
+      "id": "spam_001",
+      "type": "spam",
+      "expected_classification": "spam",
+      "email": {
+        "from": "marketing@amazingdeals.com",
+        "subject": "AMAZING HAIR CARE DEALS - 70% OFF TODAY ONLY!",
+        "body": "Dear Valued Customer,\n\nDon't miss our INCREDIBLE sale on professional hair care products!\n\n🔥 70% OFF all styling tools\n🔥 FREE shipping on orders over $50\n🔥 Buy 2 Get 1 FREE on all accessories\n\nVisit www.amazingdeals.com/haircare NOW!\n\nThis offer expires at midnight!\n\nUnsubscribe: click here"
+      }
+    },
+    {
+      "id": "spam_002",
+      "type": "spam",
+      "expected_classification": "spam",
+      "email": {
+        "from": "prince.nigeria@email.ng",
+        "subject": "URGENT: Business Proposal - $5,000,000 Transfer",
+        "body": "Dear Friend,\n\nI am Prince Adebayo from Nigeria. I have $5,000,000 USD to transfer to your account.\nPlease send your bank details for this legitimate business opportunity.\n\nGod Bless,\nPrince Adebayo"
+      }
+    },
+    {
+      "id": "inquiry_001",
+      "type": "inquiry",
+      "expected_classification": "inquiry",
+      "email": {
+        "from": "jane.doe@gmail.com",
+        "subject": "Question about AirFlow Pro features",
+        "body": "Hi there,\n\nI'm considering buying the AirFlow Pro hair dryer and had a few questions:\n\n1. Does it have a cool shot button?\n2. What attachments are included?\n3. Is it dual voltage for travel?\n\nI haven't purchased yet but want to make sure it's right for me.\n\nThanks!\nJane"
+      }
+    },
+    {
+      "id": "inquiry_002",
+      "type": "inquiry",
+      "expected_classification": "inquiry",
+      "email": {
+        "from": "bob.smith@yahoo.com",
+        "subject": "Where can I buy replacement parts?",
+        "body": "Hello,\n\nI've had my QuietBlow Deluxe for about 2 years now and I love it! The concentrator\nnozzle broke recently (my fault, I dropped it). Where can I purchase a replacement\nnozzle? I don't need a warranty claim, just want to buy the part.\n\nThanks,\nBob"
+      }
+    },
+    {
+      "id": "spam_003",
+      "type": "spam",
+      "expected_classification": "spam",
+      "email": {
+        "from": "recruiter@staffing.com",
+        "subject": "Exciting Career Opportunity - Customer Service Manager",
+        "body": "Hello,\n\nWe came across your profile and think you'd be a great fit for our Customer Service\nManager position. The salary is $75,000-$95,000 with full benefits.\n\nPlease reply with your resume if interested.\n\nBest regards,\nHR Team"
+      }
+    },
+    {
+      "id": "spam_004",
+      "type": "spam",
+      "expected_classification": "spam",
+      "email": {
+        "from": "newsletter@beautymagazine.com",
+        "subject": "This Week's Top 10 Hair Styling Tips",
+        "body": "BEAUTY WEEKLY NEWSLETTER\n\nThis week's top stories:\n1. 10 Tips for Perfect Blowouts\n2. Celebrity Hair Trends 2026\n3. Best Products for Frizzy Hair\n4. Interview with Top Stylist Maria Chen\n\nRead more at beautymagazine.com\n\nTo unsubscribe, click here."
+      }
+    },
+    {
+      "id": "valid_001",
+      "type": "valid_claim",
+      "expected_classification": "claim",
+      "expected_recommendation": "APPROVE",
+      "ground_truth": {
+        "product": "HD-002",
+        "purchase_date": "2025-12-18",
+        "days_since_purchase": 45,
+        "issue": "motor_failure",
+        "within_warranty": true,
+        "exclusion_triggered": null
+      },
+      "email": {
+        "from": "john.smith@gmail.com",
+        "subject": "Warranty Claim - AirFlow Pro stopped working",
+        "body": "Hi,\n\nMy AirFlow Pro hair dryer suddenly stopped working yesterday. The motor makes a\nclicking sound and won't spin at all. I've only had it for about 6 weeks.\n\nProduct: AirFlow Pro\nSerial Number: HD-002-583921\nPurchase Date: December 18, 2025\nPurchased from: Amazon\n\nI have the receipt and can provide it if needed. This is clearly a defect as I've\ntaken good care of it and only use it normally.\n\nMy address for shipping:\nJohn Smith\n123 Main Street\nBoston, MA 02101\n\nPlease let me know how to proceed with the warranty claim.\n\nThank you,\nJohn Smith\njohn.smith@gmail.com"
+      }
+    },
+    {
+      "id": "valid_002",
+      "type": "valid_claim",
+      "expected_classification": "claim",
+      "expected_recommendation": "APPROVE",
+      "ground_truth": {
+        "product": "HD-007",
+        "purchase_date": "2026-01-02",
+        "days_since_purchase": 30,
+        "issue": "heating_element_failure",
+        "within_warranty": true,
+        "exclusion_triggered": null
+      },
+      "email": {
+        "from": "emily.wilson@outlook.com",
+        "subject": "QuietBlow Compact - No Heat",
+        "body": "Hello,\n\nI purchased a QuietBlow Compact hair dryer about a month ago and it has stopped\nproducing heat. The motor runs fine and air comes out, but it's only cold air\nregardless of the heat setting.\n\nDetails:\n- Model: QuietBlow Compact (HD-007)\n- Serial: HD-007-294817\n- Bought on: 01/02/2026\n- Store: Target\n\nI've attached a photo of my receipt. Please advise on the warranty process.\n\nEmily Wilson\n456 Oak Avenue\nChicago, IL 60601\nemily.wilson@outlook.com"
+      }
+    },
+    {
+      "id": "valid_003",
+      "type": "valid_claim",
+      "expected_classification": "claim",
+      "expected_recommendation": "APPROVE",
+      "ground_truth": {
+        "product": "HD-001",
+        "purchase_date": "2025-12-03",
+        "days_since_purchase": 60,
+        "issue": "switch_defect",
+        "within_warranty": true,
+        "exclusion_triggered": null
+      },
+      "email": {
+        "from": "maria.garcia@yahoo.com",
+        "subject": "AirFlow Basic power button problem",
+        "body": "Hi there,\n\nThe power button on my AirFlow Basic is defective. It gets stuck in the ON position\nand I have to unplug it to turn it off. This started happening last week.\n\nI bought this on December 03 from Walmart.\nSerial number is HD-001-847293.\n\nThis seems like a manufacturing defect. I have the receipt.\n\nMaria Garcia\n789 Pine Road\nMiami, FL 33101\n305-555-1234"
+      }
+    },
+    {
+      "id": "valid_004",
+      "type": "valid_claim",
+      "expected_classification": "claim",
+      "expected_recommendation": "APPROVE",
+      "ground_truth": {
+        "product": "HD-005",
+        "purchase_date": "2025-10-04",
+        "days_since_purchase": 120,
+        "issue": "motor_failure",
+        "within_warranty": true,
+        "exclusion_triggered": null
+      },
+      "email": {
+        "from": "lisa.stylist@salonbeauty.com",
+        "subject": "SalonMaster 3000 Warranty Claim - Motor Issue",
+        "body": "Hello,\n\nI own a small salon and purchased the SalonMaster 3000 for professional use about\n4 months ago. The motor has started making a grinding noise and sometimes cuts out.\n\nI know this is a professional-grade dryer approved for salon use, and I believe\nit should still be under the 180-day warranty.\n\nProduct: SalonMaster 3000\nSerial: HD-005-192847\nPurchase Date: 2025-10-04\nOrder #: AMZ-9876543\n\nPlease process this warranty claim. I rely on this dryer for my business.\n\nLisa Chen\nBeauty First Salon\n100 Commerce St\nSan Francisco, CA 94102\nlisa.stylist@salonbeauty.com"
+      }
+    },
+    {
+      "id": "valid_005",
+      "type": "valid_claim",
+      "expected_classification": "claim",
+      "expected_recommendation": "APPROVE",
+      "ground_truth": {
+        "product": "HD-010",
+        "purchase_date": "2026-01-17",
+        "days_since_purchase": 15,
+        "issue": "wont_turn_on",
+        "within_warranty": true,
+        "exclusion_triggered": null
+      },
+      "email": {
+        "from": "david.lee@email.com",
+        "subject": "Brand new ProStyle Ionic won't turn on",
+        "body": "Hi,\n\nI just bought a ProStyle Ionic hair dryer 2 weeks ago and it already won't turn on!\nI've tried different outlets and nothing works. This is very frustrating for a\n$80 product.\n\nSerial: HD-010-394857\nPurchased: 01/17/2026 from Best Buy\nI have the receipt.\n\nPlease replace this defective unit ASAP.\n\nDavid Lee\n222 Elm Street\nSeattle, WA 98101"
+      }
+    },
+    {
+      "id": "valid_006",
+      "type": "valid_claim",
+      "expected_classification": "claim",
+      "expected_recommendation": "APPROVE",
+      "ground_truth": {
+        "product": "HD-008",
+        "purchase_date": "2025-11-18",
+        "days_since_purchase": 75,
+        "issue": "cord_defect",
+        "within_warranty": true,
+        "exclusion_triggered": null
+      },
+      "email": {
+        "from": "susan.taylor@icloud.com",
+        "subject": "QuietBlow Deluxe - Cord Issue",
+        "body": "Hello,\n\nThe power cord on my QuietBlow Deluxe has started fraying at the base where it\nconnects to the dryer. I haven't done anything to damage it - it just started\nhappening. I'm worried it might be a fire hazard.\n\nModel: QuietBlow Deluxe\nSerial Number: HD-008-573920\nPurchase Date: Around November 2025\nI bought it at Bed Bath & Beyond and have my credit card statement as proof.\n\nPlease help!\n\nSusan Taylor\n888 Maple Lane\nDenver, CO 80201"
+      }
+    },
+    {
+      "id": "valid_007",
+      "type": "valid_claim",
+      "expected_classification": "claim",
+      "expected_recommendation": "APPROVE",
+      "ground_truth": {
+        "product": "HD-003",
+        "purchase_date": "2025-12-13",
+        "days_since_purchase": 50,
+        "issue": "motor_failure",
+        "within_warranty": true,
+        "exclusion_triggered": null
+      },
+      "email": {
+        "from": "rachel.green@gmail.com",
+        "subject": "TravelDry Mini defective",
+        "body": "Hi there,\n\nMy TravelDry Mini suddenly stopped working. The motor doesn't spin at all.\nI've only used it a handful of times since I bought it about 7 weeks ago.\n\n- Product: TravelDry Mini\n- Serial #: HD-003-849201\n- Purchased: December 13, 2025\n- Where: Amazon.com\n\nI have my Amazon order confirmation. This is definitely a defect.\n\nRachel Green\n555 Central Park West, Apt 4B\nNew York, NY 10024"
+      }
+    },
+    {
+      "id": "valid_008",
+      "type": "valid_claim",
+      "expected_classification": "claim",
+      "expected_recommendation": "APPROVE",
+      "ground_truth": {
+        "product": "HD-009",
+        "purchase_date": "2026-01-12",
+        "days_since_purchase": 20,
+        "issue": "auto_shutoff_malfunction",
+        "within_warranty": true,
+        "exclusion_triggered": null
+      },
+      "email": {
+        "from": "mom.jennifer@family.com",
+        "subject": "KidSafe Dryer Warranty Issue",
+        "body": "Hello,\n\nWe bought the KidSafe Dryer for our daughter about 3 weeks ago. The auto shut-off\nfeature isn't working - it just keeps running without stopping. This defeats the\nwhole safety purpose of the product.\n\nDetails:\n- KidSafe Dryer, model HD-009\n- Serial: HD-009-102938\n- Bought 01/12/26 from Target\n- Have receipt\n\nPlease replace this as it's a safety concern.\n\nJennifer Adams\n333 Family Drive\nAustin, TX 78701"
+      }
+    },
+    {
+      "id": "valid_009",
+      "type": "valid_claim",
+      "expected_classification": "claim",
+      "expected_recommendation": "APPROVE",
+      "ground_truth": {
+        "product": "HD-006",
+        "purchase_date": "2025-09-04",
+        "days_since_purchase": 150,
+        "issue": "digital_control_failure",
+        "within_warranty": true,
+        "exclusion_triggered": null
+      },
+      "email": {
+        "from": "mark.salon@hairpro.com",
+        "subject": "SalonMaster Elite - Digital Display Not Working",
+        "body": "Hi,\n\nThe digital temperature display on my SalonMaster Elite has stopped working.\nThe dryer still functions but I can't see or adjust the temperature settings.\n\nProduct: SalonMaster Elite\nSerial: HD-006-847362\nPurchase Date: 2025-09-04\nProof: Invoice attached\n\nThis is a professional unit used in my salon (which I know is allowed).\nShould be within the 180-day warranty period.\n\nMark Johnson\nPro Hair Studio\n444 Salon Row\nLos Angeles, CA 90001"
+      }
+    },
+    {
+      "id": "invalid_expired_001",
+      "type": "invalid_expired",
+      "expected_classification": "claim",
+      "expected_recommendation": "REJECT",
+      "ground_truth": {
+        "product": "HD-001",
+        "purchase_date": "2025-07-16",
+        "days_since_purchase": 200,
+        "issue": "motor_failure",
+        "within_warranty": false,
+        "rejection_reason": "warranty_expired"
+      },
+      "email": {
+        "from": "sarah.jones@yahoo.com",
+        "subject": "Warranty claim for AirFlow Basic",
+        "body": "Hi,\n\nMy AirFlow Basic hair dryer stopped heating. I bought it back in July 2025.\nSerial number is HD-001-129384.\n\nCan I get a replacement under warranty?\n\nSarah Jones\nsarah.jones@yahoo.com"
+      }
+    },
+    {
+      "id": "invalid_expired_002",
+      "type": "invalid_expired",
+      "expected_classification": "claim",
+      "expected_recommendation": "REJECT",
+      "ground_truth": {
+        "product": "HD-002",
+        "purchase_date": "2025-10-29",
+        "days_since_purchase": 95,
+        "issue": "switch_defect",
+        "within_warranty": false,
+        "rejection_reason": "warranty_expired"
+      },
+      "email": {
+        "from": "tom.baker@email.com",
+        "subject": "AirFlow Pro switch broken",
+        "body": "Hello,\n\nThe heat switch on my AirFlow Pro is broken. I bought it on October 29, 2025.\nSerial: HD-002-293847\n\nPlease process my warranty claim.\n\nTom Baker\n777 Oak Street\nPortland, OR 97201"
+      }
+    },
+    {
+      "id": "invalid_expired_003",
+      "type": "invalid_expired",
+      "expected_classification": "claim",
+      "expected_recommendation": "REJECT",
+      "ground_truth": {
+        "product": "HD-004",
+        "purchase_date": "2024-12-28",
+        "days_since_purchase": 400,
+        "issue": "motor_failure",
+        "within_warranty": false,
+        "rejection_reason": "warranty_expired"
+      },
+      "email": {
+        "from": "old.customer@aol.com",
+        "subject": "TravelDry Plus Warranty",
+        "body": "My TravelDry Plus from December 2024 broke. The motor died.\nSerial HD-004-384756. I need a replacement.\n\nThanks,\nOld Customer"
+      }
+    },
+    {
+      "id": "invalid_expired_004",
+      "type": "invalid_expired",
+      "expected_classification": "claim",
+      "expected_recommendation": "REJECT",
+      "ground_truth": {
+        "product": "HD-007",
+        "purchase_date": "2025-08-05",
+        "days_since_purchase": 180,
+        "issue": "heating_element",
+        "within_warranty": false,
+        "rejection_reason": "warranty_expired"
+      },
+      "email": {
+        "from": "kate.miller@gmail.com",
+        "subject": "QuietBlow Compact not heating",
+        "body": "Hi there,\n\nMy QuietBlow Compact (serial HD-007-584930) stopped producing heat.\nI purchased it approximately 6 months ago (August 2025).\n\nIs this covered under warranty?\n\nKate Miller"
+      }
+    },
+    {
+      "id": "invalid_expired_005",
+      "type": "invalid_expired",
+      "expected_classification": "claim",
+      "expected_recommendation": "REJECT",
+      "ground_truth": {
+        "product": "HD-005",
+        "purchase_date": "2025-07-16",
+        "days_since_purchase": 200,
+        "issue": "motor_failure",
+        "within_warranty": false,
+        "rejection_reason": "warranty_expired"
+      },
+      "email": {
+        "from": "salon.owner@beauty.com",
+        "subject": "SalonMaster 3000 claim",
+        "body": "Our SalonMaster 3000 (HD-005-473829) has motor issues.\nPurchased 07/16/2025.\n\nPlease replace under warranty.\n\nSalon Owner"
+      }
+    },
+    {
+      "id": "invalid_water_001",
+      "type": "invalid_exclusion",
+      "expected_classification": "claim",
+      "expected_recommendation": "REJECT",
+      "ground_truth": {
+        "product": "HD-003",
+        "purchase_date": "2026-01-02",
+        "days_since_purchase": 30,
+        "issue": "water_damage",
+        "within_warranty": true,
+        "exclusion_triggered": "water_damage",
+        "rejection_reason": "exclusion_water_damage"
+      },
+      "email": {
+        "from": "mike.brown@outlook.com",
+        "subject": "TravelDry Mini not working after bathroom incident",
+        "body": "My TravelDry Mini fell into the sink while the water was running. Now it won't\nturn on at all. I bought it on January 02, serial HD-003-847261.\n\nIs this covered under warranty?\n\nMike Brown\nmike.brown@outlook.com"
+      }
+    },
+    {
+      "id": "invalid_commercial_001",
+      "type": "invalid_exclusion",
+      "expected_classification": "claim",
+      "expected_recommendation": "REJECT",
+      "ground_truth": {
+        "product": "HD-001",
+        "purchase_date": "2025-12-18",
+        "days_since_purchase": 45,
+        "issue": "motor_failure",
+        "within_warranty": true,
+        "exclusion_triggered": "commercial_use",
+        "rejection_reason": "commercial_use_not_covered"
+      },
+      "email": {
+        "from": "salon.beauty@business.com",
+        "subject": "Bulk warranty claim - AirFlow Basic units failing",
+        "body": "We purchased 5 AirFlow Basic dryers for our salon on December 18.\nAfter heavy daily use on clients, 3 of them have stopped working.\n\nSerials: HD-001-483921, HD-001-483922, HD-001-483923\n\nWe need replacements ASAP for our business.\n\nBeauty Salon Inc.\n100 Salon Street\nMiami, FL 33101"
+      }
+    },
+    {
+      "id": "invalid_dropped_001",
+      "type": "invalid_exclusion",
+      "expected_classification": "claim",
+      "expected_recommendation": "REJECT",
+      "ground_truth": {
+        "product": "HD-004",
+        "purchase_date": "2026-01-12",
+        "days_since_purchase": 20,
+        "issue": "physical_damage",
+        "within_warranty": true,
+        "exclusion_triggered": "physical_damage",
+        "rejection_reason": "damage_from_dropping"
+      },
+      "email": {
+        "from": "clumsy.user@gmail.com",
+        "subject": "TravelDry Plus broke after falling",
+        "body": "Hi,\n\nI accidentally dropped my TravelDry Plus from the bathroom counter onto the tile\nfloor. Now it makes a rattling noise and the heat doesn't work right.\n\nSerial: HD-004-293847\nBought: 01/12/2026\n\nCan I get this fixed under warranty?\n\nThanks"
+      }
+    },
+    {
+      "id": "invalid_overuse_001",
+      "type": "invalid_exclusion",
+      "expected_classification": "claim",
+      "expected_recommendation": "REJECT",
+      "ground_truth": {
+        "product": "HD-003",
+        "purchase_date": "2025-12-23",
+        "days_since_purchase": 40,
+        "issue": "overheating",
+        "within_warranty": true,
+        "exclusion_triggered": "continuous_use_exceeded",
+        "rejection_reason": "exceeded_20_minute_limit"
+      },
+      "email": {
+        "from": "long.hair@email.com",
+        "subject": "TravelDry Mini overheated",
+        "body": "My TravelDry Mini overheated and stopped working. I was drying my very long hair\nwhich takes about 45 minutes to an hour. After using it continuously for that time,\nit just shut off and now won't turn back on.\n\nSerial: HD-003-192837\nPurchased December 23, 2025\n\nPlease help!"
+      }
+    },
+    {
+      "id": "invalid_maintenance_001",
+      "type": "invalid_exclusion",
+      "expected_classification": "claim",
+      "expected_recommendation": "REJECT",
+      "ground_truth": {
+        "product": "HD-007",
+        "purchase_date": "2025-12-03",
+        "days_since_purchase": 60,
+        "issue": "overheating",
+        "within_warranty": true,
+        "exclusion_triggered": "maintenance_neglect",
+        "rejection_reason": "lint_filter_not_cleaned"
+      },
+      "email": {
+        "from": "never.clean@email.com",
+        "subject": "QuietBlow Compact keeps shutting off",
+        "body": "Hello,\n\nMy QuietBlow Compact keeps overheating and shutting off. I've had it for about\n2 months (bought December 2025).\n\nI'll be honest - I didn't know there was a lint filter and have never cleaned it.\nWhen I looked, it was completely clogged with lint and dust.\n\nSerial: HD-007-483920\nCan I still get a replacement?"
+      }
+    },
+    {
+      "id": "invalid_repair_001",
+      "type": "invalid_exclusion",
+      "expected_classification": "claim",
+      "expected_recommendation": "REJECT",
+      "ground_truth": {
+        "product": "HD-002",
+        "purchase_date": "2025-12-13",
+        "days_since_purchase": 50,
+        "issue": "motor_failure",
+        "within_warranty": true,
+        "exclusion_triggered": "unauthorized_repair",
+        "rejection_reason": "tampered_with"
+      },
+      "email": {
+        "from": "diy.fixer@gmail.com",
+        "subject": "AirFlow Pro still not working",
+        "body": "Hi,\n\nMy AirFlow Pro had a minor issue so I opened it up to try to fix it myself.\nI watched some YouTube videos and tried to repair the motor. Unfortunately,\nI made it worse and now it doesn't work at all.\n\nSerial: HD-002-584930\nBought: 12/13/2025\n\nCan I get a replacement?"
+      }
+    },
+    {
+      "id": "invalid_water_002",
+      "type": "invalid_exclusion",
+      "expected_classification": "claim",
+      "expected_recommendation": "REJECT",
+      "ground_truth": {
+        "product": "HD-010",
+        "purchase_date": "2026-01-07",
+        "days_since_purchase": 25,
+        "issue": "water_damage",
+        "within_warranty": true,
+        "exclusion_triggered": "water_damage",
+        "rejection_reason": "exclusion_water_damage"
+      },
+      "email": {
+        "from": "wet.bathroom@email.com",
+        "subject": "ProStyle Ionic stopped working after getting wet",
+        "body": "My ProStyle Ionic got splashed with water while I was using it near the shower.\nThe bathroom was really steamy and some water dripped on it. Now it sparks\nwhen I try to turn it on.\n\nHD-010-394857\nBought January 07\n\nIs this covered?"
+      }
+    },
+    {
+      "id": "invalid_missing_001",
+      "type": "invalid_missing_info",
+      "expected_classification": "claim",
+      "expected_recommendation": "NEED_INFO",
+      "ground_truth": {
+        "missing_fields": [
+          "product_name",
+          "purchase_date",
+          "serial_number"
+        ],
+        "action": "request_more_info"
+      },
+      "email": {
+        "from": "vague.customer@email.com",
+        "subject": "Hair dryer broken",
+        "body": "My hair dryer is broken. It just stopped working. Please send a new one.\n\nThanks"
+      }
+    },
+    {
+      "id": "invalid_missing_002",
+      "type": "invalid_missing_info",
+      "expected_classification": "claim",
+      "expected_recommendation": "NEED_INFO",
+      "ground_truth": {
+        "missing_fields": [
+          "purchase_date",
+          "proof_of_purchase"
+        ],
+        "product": "HD-002",
+        "action": "request_more_info"
+      },
+      "email": {
+        "from": "no.date@email.com",
+        "subject": "AirFlow Pro warranty",
+        "body": "Hi,\n\nI have an AirFlow Pro hair dryer (serial HD-002-938475) that stopped working.\nThe motor is dead.\n\nI don't remember exactly when I bought it or where. I might have thrown away\nthe receipt. Can you still help?\n\nThanks"
+      }
+    },
+    {
+      "id": "invalid_missing_003",
+      "type": "invalid_missing_info",
+      "expected_classification": "claim",
+      "expected_recommendation": "NEED_INFO",
+      "ground_truth": {
+        "missing_fields": [
+          "serial_number",
+          "specific_product"
+        ],
+        "action": "request_more_info"
+      },
+      "email": {
+        "from": "partial.info@email.com",
+        "subject": "Warranty for my hair dryer",
+        "body": "Hello,\n\nI bought one of your hair dryers from Amazon about 2 months ago. I think it\nwas the travel one? The small pink one. Anyway, it stopped working.\n\nI have my Amazon order somewhere but I can't find the serial number on the\nproduct - where is it located?\n\nCan you help?\n\nAmy"
+      }
+    }
+  ]
+}

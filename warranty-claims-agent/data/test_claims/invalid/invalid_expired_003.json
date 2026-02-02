@@ -1,0 +1,19 @@
+{
+  "id": "invalid_expired_003",
+  "type": "invalid_expired",
+  "expected_classification": "claim",
+  "expected_recommendation": "REJECT",
+  "ground_truth": {
+    "product": "HD-004",
+    "purchase_date": "2024-12-28",
+    "days_since_purchase": 400,
+    "issue": "motor_failure",
+    "within_warranty": false,
+    "rejection_reason": "warranty_expired"
+  },
+  "email": {
+    "from": "old.customer@aol.com",
+    "subject": "TravelDry Plus Warranty",
+    "body": "My TravelDry Plus from December 2024 broke. The motor died.\nSerial HD-004-384756. I need a replacement.\n\nThanks,\nOld Customer"
+  }
+}

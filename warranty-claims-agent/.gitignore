@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+docs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment Variables
+.env
+
+# Data Files (runtime generated)
+data/claims.db
+data/claims.db-shm
+data/claims.db-wal
+data/eval_claims.db*
+data/chroma_db/
+data/outbox/MSG-*.json
+data/outbox/inquiry_response_*.txt
+data/outbox/email_log.jsonl
+data/labels/*.pdf
+data/inbox/*.json
+
+# Test Results
+data/test_claims/evaluation_results_*.json
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Keep directories but not contents
+!data/inbox/.gitkeep
+!data/outbox/.gitkeep
+!data/labels/.gitkeep

@@ -1,0 +1,10 @@
+{
+  "id": "inquiry_003",
+  "type": "inquiry",
+  "expected_classification": "inquiry",
+  "email": {
+    "from": "lisa.wong@email.com",
+    "subject": "Comparing SalonMaster models",
+    "body": "Hi there,\n\nI'm a professional hairstylist looking to upgrade my equipment. I'm torn between the SalonMaster 3000 and the SalonMaster Elite.\n\nCan you explain:\n- What are the main differences between these two models?\n- Which one has a longer warranty?\n- Is the Elite worth the extra cost for salon use?\n- Do both support continuous professional use?\n\nThanks for your time!\nLisa"
+  }
+}

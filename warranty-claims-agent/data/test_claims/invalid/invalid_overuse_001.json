@@ -1,0 +1,20 @@
+{
+  "id": "invalid_overuse_001",
+  "type": "invalid_exclusion",
+  "expected_classification": "claim",
+  "expected_recommendation": "REJECT",
+  "ground_truth": {
+    "product": "HD-003",
+    "purchase_date": "2025-12-23",
+    "days_since_purchase": 40,
+    "issue": "overheating",
+    "within_warranty": true,
+    "exclusion_triggered": "continuous_use_exceeded",
+    "rejection_reason": "exceeded_20_minute_limit"
+  },
+  "email": {
+    "from": "long.hair@email.com",
+    "subject": "TravelDry Mini overheated",
+    "body": "My TravelDry Mini overheated and stopped working. I was drying my very long hair\nwhich takes about 45 minutes to an hour. After using it continuously for that time,\nit just shut off and now won't turn back on.\n\nSerial: HD-003-192837\nPurchased December 23, 2025\n\nPlease help!"
+  }
+}

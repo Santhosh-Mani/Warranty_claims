@@ -1,0 +1,20 @@
+{
+  "id": "invalid_water_001",
+  "type": "invalid_exclusion",
+  "expected_classification": "claim",
+  "expected_recommendation": "REJECT",
+  "ground_truth": {
+    "product": "HD-003",
+    "purchase_date": "2026-01-02",
+    "days_since_purchase": 30,
+    "issue": "water_damage",
+    "within_warranty": true,
+    "exclusion_triggered": "water_damage",
+    "rejection_reason": "exclusion_water_damage"
+  },
+  "email": {
+    "from": "mike.brown@outlook.com",
+    "subject": "TravelDry Mini not working after bathroom incident",
+    "body": "My TravelDry Mini fell into the sink while the water was running. Now it won't\nturn on at all. I bought it on January 02, serial HD-003-847261.\n\nIs this covered under warranty?\n\nMike Brown\nmike.brown@outlook.com"
+  }
+}

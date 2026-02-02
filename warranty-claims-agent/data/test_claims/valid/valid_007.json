@@ -1,0 +1,19 @@
+{
+  "id": "valid_007",
+  "type": "valid_claim",
+  "expected_classification": "claim",
+  "expected_recommendation": "APPROVE",
+  "ground_truth": {
+    "product": "HD-003",
+    "purchase_date": "2025-12-13",
+    "days_since_purchase": 50,
+    "issue": "motor_failure",
+    "within_warranty": true,
+    "exclusion_triggered": null
+  },
+  "email": {
+    "from": "rachel.green@gmail.com",
+    "subject": "TravelDry Mini defective",
+    "body": "Hi there,\n\nMy TravelDry Mini suddenly stopped working. The motor doesn't spin at all.\nI've only used it a handful of times since I bought it about 7 weeks ago.\n\n- Product: TravelDry Mini\n- Serial #: HD-003-849201\n- Purchased: December 13, 2025\n- Where: Amazon.com\n\nI have my Amazon order confirmation. This is definitely a defect.\n\nRachel Green\n555 Central Park West, Apt 4B\nNew York, NY 10024"
+  }
+}
